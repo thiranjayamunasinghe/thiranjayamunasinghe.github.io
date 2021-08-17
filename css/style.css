@@ -1274,6 +1274,11 @@ span.border.two:after {
   -moz-opacity: 0;
   filter: alpha(opacity=0);
 }
+
+.wthree_about_right_grid {
+  margin-bottom: 2rem;
+}
+
 /*-- responsive-design --*/
 @media (max-width: 1366px) {
   .about-left-grid {
@@ -1820,6 +1825,7 @@ span.border.two:after {
   .wthree_about_right_grid {
     text-align: center;
     width: 100%;
+    /* margin-bottom: 0rem; */
   }
   .wthree_about_right_grid_left {
     padding: 0;
