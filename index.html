@@ -1,350 +1,436 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
+  <head>
+    <title>Thiranjaya Munasinghe</title>
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Custom Theme files -->
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <!-- Custom Theme files -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta
+      name="keywords"
+      content="Thiranjaya Munasinghe thiranjayamunasinghe thiranjaya-munasinghe itfac Moratuwa thiranjayamunasinghe@gmail.com"
+    />
+    <meta
+      name="description"
+      content="thiranjayamunasinghe@gmail.com Thiranjaya Munasinghe thiranjayamunasinghe thiranjaya-munasinghe itfac Moratuwa IT"
+    />
+    <!-- webfonts -->
+    <link
+      href="//fonts.googleapis.com/css?family=Asap:400,700,400italic"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="//fonts.googleapis.com/css?family=Open+Sans:400,300,600"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- webfonts -->
+    <!---- start-smoth-scrolling---->
+    <script type="text/javascript" src="js/move-top.js"></script>
+    <script type="text/javascript" src="js/easing.js"></script>
+    <script type="text/javascript">
+      jQuery(document).ready(function ($) {
+        $(".scroll").click(function (event) {
+          event.preventDefault();
+          $("html,body").animate(
+            { scrollTop: $(this.hash).offset().top },
+            1000
+          );
+        });
+      });
+    </script>
+    <!---- start-smoth-scrolling---->
+  </head>
 
-<head>
-	<title>Thiranjaya Munasinghe</title>
-	<link rel="icon" type="image/png" href="images/favicon.png" />
-	<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
-	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="js/jquery.min.js"></script>
-	<!-- Custom Theme files -->
-	<link href="css/style.css" rel='stylesheet' type='text/css' />
-	<!-- Custom Theme files -->
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta name="keywords"
-		content="Thiranjaya Munasinghe thiranjayamunasinghe thiranjaya-munasinghe itfac Moratuwa thiranjayamunasinghe@gmail.com" />
-	<meta name="description"
-		content="thiranjayamunasinghe@gmail.com Thiranjaya Munasinghe thiranjayamunasinghe thiranjaya-munasinghe itfac Moratuwa IT" />
-	<!-- webfonts -->
-	<link href='//fonts.googleapis.com/css?family=Asap:400,700,400italic' rel='stylesheet' type='text/css'>
-	<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
-	<!-- webfonts -->
-	<!---- start-smoth-scrolling---->
-	<script type="text/javascript" src="js/move-top.js"></script>
-	<script type="text/javascript" src="js/easing.js"></script>
-	<script type="text/javascript">
-		jQuery(document).ready(function ($) {
-			$(".scroll").click(function (event) {
-				event.preventDefault();
-				$('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1000);
-			});
-		});
-	</script>
-	<!---- start-smoth-scrolling---->
-</head>
+  <body>
+    <!-- container -->
+    <!-- header -->
+    <div id="home" class="header">
+      <div class="container">
+        <!-- top-hedader -->
+        <div class="top-header">
+          <!-- /logo -->
+          <!--top-nav---->
+          <div class="top-nav">
+            <div class="navigation">
+              <div class="logo">
+                <h1>
+                  <a href="index.html"><span>T</span>hiranjaya</a>
+                </h1>
+              </div>
+              <div class="navigation-right">
+                <span class="menu"><img src="images/menu.png" alt=" " /></span>
+                <nav class="link-effect-3" id="link-effect-3">
+                  <ul class="nav1 nav nav-wil">
+                    <li class="active">
+                      <a data-hover="Home" href="index.html">Home</a>
+                    </li>
+                    <li>
+                      <a class="scroll" data-hover="About" href="#about"
+                        >About</a
+                      >
+                    </li>
+                    <li>
+                      <a class="scroll" data-hover="Skills" href="#services"
+                        >Skills</a
+                      >
+                    </li>
+                    <li>
+                      <a class="scroll" data-hover="Experience" href="#work"
+                        >Experience</a
+                      >
+                    </li>
+                    <li>
+                      <a class="scroll" data-hover="Projects" href="#blogs"
+                        >Projects</a
+                      >
+                    </li>
+                    <li>
+                      <a class="scroll" data-hover="Contact" href="#contact"
+                        >Contact</a
+                      >
+                    </li>
+                  </ul>
+                </nav>
+                <!-- script-for-menu -->
+                <script>
+                  $("span.menu").click(function () {
+                    $("ul.nav1").slideToggle(300, function () {
+                      // Animation complete.
+                    });
+                  });
+                </script>
+                <!-- /script-for-menu -->
+              </div>
+              <div class="clearfix"></div>
+            </div>
+            <!-- /top-hedader -->
+          </div>
+          <div class="banner-info">
+            <div class="col-md-7 header-right">
+              <h1>Hi !</h1>
+              <h6>software engineer</h6>
+              <ul class="address">
+                <li>
+                  <ul class="address-text">
+                    <li><b>NAME</b></li>
+                    <li>Thiranjaya Munasinghe</li>
+                  </ul>
+                </li>
+                <li>
+                  <ul class="address-text">
+                    <li><b>D.O.B</b></li>
+                    <li>31-08-1996</li>
+                  </ul>
+                </li>
+                <li>
+                  <ul class="address-text">
+                    <li><b>PHONE </b></li>
+                    <li>+94 71 541 8325</li>
+                  </ul>
+                </li>
+                <li>
+                  <ul class="address-text">
+                    <li><b>ADDRESS </b></li>
+                    <li>Nawimana South, Matara</li>
+                  </ul>
+                </li>
+                <li>
+                  <ul class="address-text">
+                    <li><b>E-MAIL </b></li>
+                    <li>
+                      <a
+                        target="_blank"
+                        href="mailto:thiranjayamunasinghe@gmail.com"
+                        >thiranjayamunasinghe@gmail.com</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <ul class="address-text">
+                    <li><b>WEBSITE </b></li>
+                    <li>
+                      <a href="https://www.thiranjaya.me">www.thiranjaya.me</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-5 header-left">
+              <img src="images/dp.jpg" alt="Thiranjaya" />
+            </div>
+            <div class="clearfix"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- about -->
+    <div id="about" class="about">
+      <div class="col-md-6 about-left">
+        <div id="owl-demo1" class="owl-carousel owl-carousel2">
+          <div class="item">
+            <div class="about-left-grid">
+              <h2>Hi! I'm <span>Thiranjaya Munasinghe</span></h2>
+              <p>
+                A passionate tech enthusiast and an adaptable team player. With
+                a constant thirst for knowledge and a drive to push boundaries,
+                eager to learn and apply emerging technologies to develop
+                practical and innovative solutions. Seeking a software
+                engineering opportunity to embark on a fulfilling and successful
+                professional journey.
+              </p>
+              <ul>
+                <li><a class="a-btn-a scroll" href="#blogs">My Work</a></li>
+                <!-- <li><a class="a-btn-a scroll" href="#contact">Hire Me</a></li> -->
+                <li>
+                  <a target="_blank" class="a-btn-a" href="assets/CV.pdf"
+                    >View CV</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 about-right"></div>
+      <div class="clearfix"></div>
+      <link href="css/owl.carousel.css" rel="stylesheet" />
+      <script src="js/owl.carousel.js"></script>
+      <script>
+        $(document).ready(function () {
+          $("#owl-demo1").owlCarousel({
+            items: 1,
+            lazyLoad: false,
+            autoPlay: true,
+            navigation: false,
+            navigationText: false,
+            pagination: true,
+          });
+        });
+      </script>
+      <!-- Feedback -->
+      <script>
+        $(document).ready(function () {
+          $("#owl-demo3").owlCarousel({
+            items: 1,
+            lazyLoad: false,
+            autoPlay: true,
+            navigation: false,
+            navigationText: true,
+            pagination: true,
+          });
+        });
+      </script>
+    </div>
+    <!-- /about -->
+    <!-- services -->
+    <div id="services" class="services">
+      <div class="container">
+        <div class="service-head one text-center">
+          <h4>WHAT I DO</h4>
+          <h3>PROFESSIONAL <span>SKILLS</span></h3>
+          <span class="border two"></span>
+        </div>
+        <!-- services-grids -->
+        <div class="wthree_about_right_grids w3l-agile">
+          <div class="col-md-6 wthree_about_right_grid">
+            <div class="col-xs-4 wthree_about_right_grid_left">
+              <div class="hvr-rectangle-in">
+                <i class="glyphicon glyphicon-pencil"></i>
+              </div>
+            </div>
+            <div class="col-xs-8 wthree_about_right_grid_right">
+              <h4>Programming Languages</h4>
+              <p>Java, Python, C</p>
+            </div>
+            <div class="clearfix"></div>
+          </div>
+          <div class="col-md-6 wthree_about_right_grid">
+            <div class="col-xs-4 wthree_about_right_grid_left">
+              <div class="hvr-rectangle-in">
+                <i class="glyphicon glyphicon-globe"></i>
+              </div>
+            </div>
+            <div class="col-xs-8 wthree_about_right_grid_right">
+              <h4>Web Development</h4>
+              <p>
+                Javascript, Typescript, Node.js, React.js, Vue.js, Electron,
+                Tailwind CSS
+              </p>
+            </div>
+            <div class="clearfix"></div>
+          </div>
 
-<body>
-	<!-- container -->
-	<!-- header -->
-	<div id="home" class="header">
-		<div class="container">
-			<!-- top-hedader -->
-			<div class="top-header">
-				<!-- /logo -->
-				<!--top-nav---->
-				<div class="top-nav">
-					<div class="navigation">
-						<div class="logo">
-							<h1><a href="index.html"><span>T</span>hiranjaya</a></h1>
-						</div>
-						<div class="navigation-right">
-							<span class="menu"><img src="images/menu.png" alt=" " /></span>
-							<nav class="link-effect-3" id="link-effect-3">
-								<ul class="nav1 nav nav-wil">
-									<li class="active"><a data-hover="Home" href="index.html">Home</a></li>
-									<li><a class="scroll" data-hover="About" href="#about">About</a></li>
-									<li><a class="scroll" data-hover="Skills" href="#services">Skills</a></li>
-									<li><a class="scroll" data-hover="Experience" href="#work">Experience</a></li>
-									<li><a class="scroll" data-hover="Projects" href="#blogs">Projects</a></li>
-									<li><a class="scroll" data-hover="Contact" href="#contact">Contact</a></li>
-								</ul>
-							</nav>
-							<!-- script-for-menu -->
-							<script>
-								$("span.menu").click(function () {
-									$("ul.nav1").slideToggle(300, function () {
-										// Animation complete.
-									});
-								});
-							</script>
-							<!-- /script-for-menu -->
-						</div>
-						<div class="clearfix"></div>
-					</div>
-					<!-- /top-hedader -->
-				</div>
-				<div class="banner-info">
-					<div class="col-md-7 header-right">
-						<h1>Hi !</h1>
-						<h6>software engineer</h6>
-						<ul class="address">
-							<li>
-								<ul class="address-text">
-									<li><b>NAME</b></li>
-									<li>Thiranjaya Munasinghe</li>
-								</ul>
-							</li>
-							<li>
-								<ul class="address-text">
-									<li><b>D.O.B</b></li>
-									<li>31-08-1996</li>
-								</ul>
-							</li>
-							<li>
-								<ul class="address-text">
-									<li><b>PHONE </b></li>
-									<li>+94 71 541 8325</li>
-								</ul>
-							</li>
-							<li>
-								<ul class="address-text">
-									<li><b>ADDRESS </b></li>
-									<li>Nawimana South, Matara</li>
-								</ul>
-							</li>
-							<li>
-								<ul class="address-text">
-									<li><b>E-MAIL </b></li>
-									<li><a target="_blank"
-											href="mailto:thiranjayamunasinghe@gmail.com">thiranjayamunasinghe@gmail.com</a>
-									</li>
-								</ul>
-							</li>
-							<li>
-								<ul class="address-text">
-									<li><b>WEBSITE </b></li>
-									<li><a href="https://www.thiranjaya.me">www.thiranjaya.me</a>
-									</li>
-								</ul>
-							</li>
+          <div class="col-md-6 wthree_about_right_grid">
+            <div class="col-xs-4 wthree_about_right_grid_left">
+              <div class="hvr-rectangle-in">
+                <i class="glyphicon glyphicon-phone"></i>
+              </div>
+            </div>
+            <div class="col-xs-8 wthree_about_right_grid_right">
+              <h4>Mobile Development</h4>
+              <p>Flutter</p>
+            </div>
+            <div class="clearfix"></div>
+          </div>
+          <div class="col-md-6 wthree_about_right_grid">
+            <div class="col-xs-4 wthree_about_right_grid_left">
+              <div class="hvr-rectangle-in">
+                <i class="glyphicon glyphicon-floppy-disk"></i>
+              </div>
+            </div>
+            <div class="col-xs-8 wthree_about_right_grid_right">
+              <h4>Databases</h4>
+              <p>MongoDB, MySQL, Firebase</p>
+            </div>
+            <div class="clearfix"></div>
+          </div>
+          <div
+            class="col-md-6 wthree_about_right_grid"
+            style="margin-top: 25px"
+          >
+            <div class="col-xs-4 wthree_about_right_grid_left">
+              <div class="hvr-rectangle-in">
+                <i class="glyphicon glyphicon-wrench"></i>
+              </div>
+            </div>
+            <div class="col-xs-8 wthree_about_right_grid_right">
+              <h4>Tools</h4>
+              <p>Git, AWS(Lambda,SNS), Datadog, Jenkins, RabbitMQ</p>
+            </div>
+            <div class="clearfix"></div>
+          </div>
+          <div class="clearfix"></div>
+        </div>
 
-						</ul>
-					</div>
-					<div class="col-md-5 header-left">
-						<img src="images/dp.jpg" alt="Thiranjaya">
-					</div>
-					<div class="clearfix"> </div>
+        <!-- services-grids -->
+      </div>
+    </div>
+    <!-- services -->
+    <!--work-experience-->
+    <div id="work" class="work">
+      <div class="container">
+        <div class="service-head text-center">
+          <h4>WHAT I DID</h4>
+          <h3>MY <span>EXPERIENCE</span></h3>
+          <span class="border one"></span>
+        </div>
+        <div class="time-main w3l-agile">
+          <div class="col-md-6 year-info">
+            <ul class="year">
+              <li>2022 - Present</li>
+              <li>2020</li>
+              <li>2017 - 2022</li>
+              <li>2007 - 2016</li>
+              <div class="clearfix"></div>
+            </ul>
+          </div>
+          <ul class="col-md-6 timeline">
+            <li>
+              <div class="timeline-badge success">
+                <i class="glyphicon glyphicon-briefcase"></i>
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4 class="timeline-title">
+                    :Different Technologies (Pvt) Limited - Software Engineer
+                  </h4>
+                </div>
+                <div class="timeline-body">
+                  <p>
+                    ⦿ Worked with the LGF team to automate the finance processes
+                    of the business
+                  </p>
+                  <p>
+                    ⦿ Implemented new features according to the product outline
+                    and requirements provided by the Product Owner
+                  </p>
+                  <p>
+                    ⦿ Wrote unit tests and API tests to ensure the reliability
+                    and stability of the automated finance system
+                  </p>
+                  <p>
+                    ⦿ Served as an on-call engineer for the LGF team,
+                    participating in rotational on-call duties to promptly
+                    address any system issues or emergencies
+                  </p>
+                </div>
+              </div>
+            </li>
 
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- about -->
-	<div id="about" class="about">
-		<div class="col-md-6 about-left">
-			<div id="owl-demo1" class="owl-carousel owl-carousel2">
-				<div class="item">
-					<div class="about-left-grid">
-						<h2>Hi! I'm <span>Thiranjaya Munasinghe</span></h2>
-						<p>
-							A passionate tech enthusiast and an adaptable team player. With a constant thirst for
-							knowledge and a drive to push boundaries, eager to learn and apply emerging technologies to
-							develop practical and innovative solutions. Seeking a software engineering opportunity to
-							embark on a fulfilling and successful professional journey.
-						</p>
-						<ul>
-							<li><a class="a-btn-a scroll" href="#blogs">My Work</a></li>
-							<!-- <li><a class="a-btn-a scroll" href="#contact">Hire Me</a></li> -->
-							<li><a target="_blank" class="a-btn-a" href="assets/CV.pdf">View CV</a></li>
-						</ul>
-					</div>
-				</div>
+            <li>
+              <div class="timeline-badge info">
+                <i class="glyphicon glyphicon-briefcase"></i>
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4 class="timeline-title">
+                    Arimac Lanka (Pvt) Limited - Trainee Software Engineer
+                  </h4>
+                </div>
+                <div class="timeline-body">
+                  <p>
+                    ⦿ Worked as a member of IMI team for 8 months, with IMI
+                    mobile application and the IMI website.
+                  </p>
+                  <p>
+                    ⦿ Contributed to the development of the Hiru TV election
+                    broadcast system.
+                  </p>
+                </div>
+              </div>
+            </li>
 
+            <li>
+              <div class="timeline-badge primary">
+                <i class="glyphicon glyphicon-briefcase"></i>
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4 class="timeline-title">
+                    University of Moratuwa – Faculty of Information Technology
+                  </h4>
+                </div>
+                <div class="timeline-body">
+                  <p>
+                    ⦿ B.Sc. (Hons.) Degree in Information Technology: GPA - 3.25
+                  </p>
+                </div>
+              </div>
+            </li>
 
-			</div>
-		</div>
-		<div class="col-md-6 about-right">
+            <li>
+              <div class="timeline-badge danger">
+                <i class="glyphicon glyphicon-briefcase"></i>
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4 class="timeline-title">St. Thomas' College - Matara</h4>
+                </div>
+                <div class="timeline-body">
+                  <p>
+                    ⦿ G.C.E. Advanced Level: Combined Mathematics - A, Physics -
+                    A, Chemistry - C
+                  </p>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+    </div>
+    <!--//work-experience-->
 
-		</div>
-		<div class="clearfix"> </div>
-		<link href="css/owl.carousel.css" rel="stylesheet">
-		<script src="js/owl.carousel.js"></script>
-		<script>
-			$(document).ready(function () {
-				$("#owl-demo1").owlCarousel({
-					items: 1,
-					lazyLoad: false,
-					autoPlay: true,
-					navigation: false,
-					navigationText: false,
-					pagination: true,
-				});
-			});
-		</script>
-		<!-- Feedback -->
-		<script>
-			$(document).ready(function () {
-				$("#owl-demo3").owlCarousel({
-					items: 1,
-					lazyLoad: false,
-					autoPlay: true,
-					navigation: false,
-					navigationText: true,
-					pagination: true,
-				});
-			});
-		</script>
-	</div>
-	<!-- /about -->
-	<!-- services -->
-	<div id="services" class="services">
-		<div class="container">
-			<div class="service-head one text-center ">
-				<h4>WHAT I DO</h4>
-				<h3>PROFESSIONAL <span>SKILLS</span></h3>
-				<span class="border two"></span>
-			</div>
-			<!-- services-grids -->
-			<div class="wthree_about_right_grids w3l-agile">
-				<div class="col-md-6 wthree_about_right_grid">
-					<div class="col-xs-4 wthree_about_right_grid_left">
-						<div class="hvr-rectangle-in">
-							<i class="glyphicon glyphicon-pencil"></i>
-						</div>
-					</div>
-					<div class="col-xs-8 wthree_about_right_grid_right">
-						<h4>Programming Languages</h4>
-						<p>Java, Python, C
-						</p>
-					</div>
-					<div class="clearfix"> </div>
-				</div>
-				<div class="col-md-6 wthree_about_right_grid">
-					<div class="col-xs-4 wthree_about_right_grid_left">
-						<div class="hvr-rectangle-in">
-							<i class="glyphicon glyphicon-globe"></i>
-						</div>
-					</div>
-					<div class="col-xs-8 wthree_about_right_grid_right">
-						<h4>Web Development</h4>
-						<p>Javascript, Typescript, Node.js, React.js, Vue.js, Electron, Tailwind CSS</p>
-					</div>
-					<div class="clearfix"> </div>
-				</div>
-
-				<div class="col-md-6 wthree_about_right_grid">
-					<div class="col-xs-4 wthree_about_right_grid_left">
-						<div class="hvr-rectangle-in">
-							<i class="glyphicon glyphicon-phone"></i>
-						</div>
-					</div>
-					<div class="col-xs-8 wthree_about_right_grid_right">
-						<h4>Mobile Development</h4>
-						<p>Flutter</p>
-					</div>
-					<div class="clearfix"> </div>
-				</div>
-				<div class="col-md-6 wthree_about_right_grid">
-					<div class="col-xs-4 wthree_about_right_grid_left">
-						<div class="hvr-rectangle-in">
-							<i class="glyphicon glyphicon-floppy-disk"></i>
-						</div>
-					</div>
-					<div class="col-xs-8 wthree_about_right_grid_right">
-						<h4>Databases</h4>
-						<p>MongoDB, MySQL, Firebase</p>
-					</div>
-					<div class="clearfix"> </div>
-				</div>
-				<div class="clearfix"> </div>
-
-
-			</div>
-
-			<!-- services-grids -->
-		</div>
-	</div>
-	<!-- services -->
-	<!--work-experience-->
-	<div id="work" class="work">
-		<div class="container">
-			<div class="service-head text-center">
-				<h4>WHAT I DID</h4>
-				<h3>MY <span>EXPERIENCE</span></h3>
-				<span class="border one"></span>
-			</div>
-			<div class="time-main w3l-agile">
-				<div class="col-md-6 year-info">
-					<ul class="year">
-						<li>2022 - Present</li>
-						<li>2020</li>
-						<li>2017 - 2022</li>
-						<li>2007 - 2016</li>
-						<div class="clearfix"></div>
-					</ul>
-				</div>
-				<ul class="col-md-6 timeline">
-					<li>
-						<div class="timeline-badge success"><i class="glyphicon glyphicon-briefcase"></i></div>
-						<div class="timeline-panel">
-							<div class="timeline-heading">
-								<h4 class="timeline-title">:Different Technologies (Pvt) Limited - Software
-									Engineer</h4>
-							</div>
-							<div class="timeline-body">
-								<p> ⦿ Worked with the LGF team to automate the finance processes of the business</p>
-								<p> ⦿ Implemented new features according to the product outline and requirements
-									provided by the Product Owner </p>
-								<p> ⦿ Wrote unit tests and API tests to ensure the reliability and stability of the
-									automated
-									finance system</p>
-								<p> ⦿ Served as an on-call engineer for the LGF team, participating in rotational
-									on-call
-									duties to promptly address any system issues or emergencies</p>
-							</div>
-						</div>
-					</li>
-
-					<li>
-						<div class="timeline-badge info"><i class="glyphicon glyphicon-briefcase"></i></div>
-						<div class="timeline-panel">
-							<div class="timeline-heading">
-								<h4 class="timeline-title">Arimac Lanka (Pvt) Limited - Trainee Software Engineer</h4>
-							</div>
-							<div class="timeline-body">
-								<p> ⦿ Worked as a member of IMI team for 8 months,
-									with IMI mobile application and the IMI website. </p>
-								<p> ⦿ Contributed to the development of the Hiru TV election broadcast system. </p>
-							</div>
-						</div>
-					</li>
-
-					<li>
-						<div class="timeline-badge primary"><i class="glyphicon glyphicon-briefcase"></i></div>
-						<div class="timeline-panel">
-							<div class="timeline-heading">
-								<h4 class="timeline-title">University of Moratuwa
-									– Faculty of Information Technology</h4>
-							</div>
-							<div class="timeline-body">
-								<p> ⦿ B.Sc. (Hons.) Degree in Information Technology:
-									GPA - 3.25</p>
-							</div>
-						</div>
-					</li>
-
-					<li>
-						<div class="timeline-badge danger"><i class="glyphicon glyphicon-briefcase"></i></div>
-						<div class="timeline-panel">
-							<div class="timeline-heading">
-								<h4 class="timeline-title">St. Thomas' College - Matara</h4>
-							</div>
-							<div class="timeline-body">
-								<p> ⦿ G.C.E. Advanced Level: Combined Mathematics - A, Physics - A, Chemistry - C</p>
-							</div>
-						</div>
-					</li>
-
-				</ul>
-				<div class="clearfix"></div>
-			</div>
-		</div>
-	</div>
-	<!--//work-experience-->
-
-	<!-- portfolio -->
-	<!-- <div class="portfolio" id="port">
+    <!-- portfolio -->
+    <!-- <div class="portfolio" id="port">
 		<div class="service-head text-center">
 			<h4>MY WORK</h4>
 			<h3>MY <span>PORTFOLIO</span></h3>
@@ -532,319 +618,382 @@
 			</div>
 		</div>
 	</div> -->
-	<!-- //portfolio -->
-	<!-- top-grids -->
-	<div class="blog" id="blogs">
-		<div class="container">
-			<div class="service-head text-center">
-				<h4>Projects</h4>
-				<h3>MY <span>WORK</span></h3>
-				<span class="border one"></span>
-			</div>
-			<div class="news-grid w3l-agile">
-				<div class="col-md-6 news-img">
-					<a href="https://play.google.com/store/apps/details?id=com.clusterlk.panthi" target="_blank"> <img
-							src="images/panthi.jpg" alt=" " class="img-responsive"></a>
-
-				</div>
-				<div class="col-md-6 news-text">
-					<h3> <a href="https://play.google.com/store/apps/details?id=com.clusterlk.panthi" target="_blank">
-							Panthi - Tuition Classes in Sri
-							Lanka</a>
-					</h3>
-					<!-- <ul class="news">
+    <!-- //portfolio -->
+    <!-- top-grids -->
+    <div class="blog" id="blogs">
+      <div class="container">
+        <div class="service-head text-center">
+          <h4>Projects</h4>
+          <h3>MY <span>WORK</span></h3>
+          <span class="border one"></span>
+        </div>
+        <div class="news-grid w3l-agile">
+          <div class="col-md-6 news-img">
+            <a
+              href="https://play.google.com/store/apps/details?id=com.clusterlk.panthi"
+              target="_blank"
+            >
+              <img src="images/panthi.jpg" alt=" " class="img-responsive"
+            /></a>
+          </div>
+          <div class="col-md-6 news-text">
+            <h3>
+              <a
+                href="https://play.google.com/store/apps/details?id=com.clusterlk.panthi"
+                target="_blank"
+              >
+                Panthi - Tuition Classes in Sri Lanka</a
+              >
+            </h3>
+            <!-- <ul class="news">
 						<li><i class="glyphicon glyphicon-user"></i> <a href="#">Admin</a></li>
 						<li><i class="glyphicon glyphicon-comment"></i> <a href="#">2 Comments</a></li>
 						<li><i class="glyphicon glyphicon-heart"></i> <a href="#">50 Likes</a></li>
 						<li><i class="glyphicon glyphicon-tags"></i> <a href="#">3 Tags</a></li>
 					</ul> -->
-					<p>'Panthi' is an easy to use mobile app which is developed to provide a way for students andparents
-						to find tuition classes in Sri
-						Lanka. Also it provides an opportunity for teachers topost ads about classes they are conducting
-						physically or virtually for free of charge.
-					</p>
-					<p style="font-weight: bold;">
-						Technologies used: Flutter, Firebase
-					</p>
-					<a href="https://play.google.com/store/apps/details?id=com.clusterlk.panthi" target="_blank"
-						class="read hvr-shutter-in-horizontal">Open </a>
+            <p>
+              'Panthi' is an easy to use mobile app which is developed to
+              provide a way for students andparents to find tuition classes in
+              Sri Lanka. Also it provides an opportunity for teachers topost ads
+              about classes they are conducting physically or virtually for free
+              of charge.
+            </p>
+            <p style="font-weight: bold">
+              Technologies used: Flutter, Firebase
+            </p>
+            <a
+              href="https://play.google.com/store/apps/details?id=com.clusterlk.panthi"
+              target="_blank"
+              class="read hvr-shutter-in-horizontal"
+              >Open
+            </a>
+          </div>
 
-				</div>
-
-				<div class="clearfix"></div>
-			</div>
-			<div class="news-grid">
-
-				<div class="col-md-6 news-text two">
-					<h3> <a>First aid bot to help in Domestic
-							Accidents - 4th Year Research Project</a>
-					</h3>
-					<!-- <ul class="news">
+          <div class="clearfix"></div>
+        </div>
+        <div class="news-grid">
+          <div class="col-md-6 news-text two">
+            <h3>
+              <a
+                >First aid bot to help in Domestic Accidents - 4th Year Research
+                Project</a
+              >
+            </h3>
+            <!-- <ul class="news">
 						<li><i class="glyphicon glyphicon-user"></i> <a href="#">Admin</a></li>
 						<li><i class="glyphicon glyphicon-comment"></i> <a href="#">2 Comments</a></li>
 						<li><i class="glyphicon glyphicon-heart"></i> <a href="#">50 Likes</a></li>
 						<li><i class="glyphicon glyphicon-tags"></i> <a href="#">3 Tags</a></li>
 					</ul> -->
-					<p>A first-aid chatbot to help in domestic accidents by analyzing the situation by askingquestions
-						and image processing. If necessary AR support is also given to explain first aidprocedures.
-					</p>
-					<p style="font-weight: bold;">
-						Technologies used: TensorFlow lite, Flutter
-					</p>
+            <p>
+              A first-aid chatbot to help in domestic accidents by analyzing the
+              situation by askingquestions and image processing. If necessary AR
+              support is also given to explain first aidprocedures.
+            </p>
+            <p style="font-weight: bold">
+              Technologies used: TensorFlow lite, Flutter
+            </p>
+          </div>
+          <div class="col-md-6 news-img two">
+            <a> <img src="images/FYP.jpg" alt=" " class="img-responsive" /></a>
+          </div>
+          <div class="clearfix"></div>
+        </div>
 
-				</div>
-				<div class="col-md-6 news-img two">
-					<a> <img src="images/FYP.jpg" alt=" " class="img-responsive"></a>
-
-				</div>
-				<div class="clearfix"></div>
-			</div>
-
-			<div class="news-grid w3l-agile">
-				<div class="col-md-6 news-img">
-					<a href="https://play.google.com/store/apps/details?id=com.imigames.imi" target="_blank"> <img
-							src="images/imi-mob.jpg" alt=" " class="img-responsive"></a>
-
-				</div>
-				<div class="col-md-6 news-text">
-					<h3> <a href="https://play.google.com/store/apps/details?id=com.imigames.imi" target="_blank">IMI
-							Games Mobile App - Intern
-							Project</a>
-					</h3>
-					<!-- <ul class="news">
+        <div class="news-grid w3l-agile">
+          <div class="col-md-6 news-img">
+            <a
+              href="https://play.google.com/store/apps/details?id=com.imigames.imi"
+              target="_blank"
+            >
+              <img src="images/imi-mob.jpg" alt=" " class="img-responsive"
+            /></a>
+          </div>
+          <div class="col-md-6 news-text">
+            <h3>
+              <a
+                href="https://play.google.com/store/apps/details?id=com.imigames.imi"
+                target="_blank"
+                >IMI Games Mobile App - Intern Project</a
+              >
+            </h3>
+            <!-- <ul class="news">
 						<li><i class="glyphicon glyphicon-user"></i> <a href="#">Admin</a></li>
 						<li><i class="glyphicon glyphicon-comment"></i> <a href="#">2 Comments</a></li>
 						<li><i class="glyphicon glyphicon-heart"></i> <a href="#">50 Likes</a></li>
 						<li><i class="glyphicon glyphicon-tags"></i> <a href="#">3 Tags</a></li>
 					</ul> -->
-					<p>IMI Games is Sri Lankan's gaming portal for locally created mini-games. A mobile application was
-						developed for android to play IMI games using the phone. I've got achance to contribute to the
-						project during my internship at Arimac.
-					</p>
-					<p style="font-weight: bold;">
-						Technologies & tools: Flutter, Facebook Analytics
-					</p>
-					<a href="https://play.google.com/store/apps/details?id=com.imigames.imi" target="_blank"
-						class="read hvr-shutter-in-horizontal">
-						Open</a>
+            <p>
+              IMI Games is Sri Lankan's gaming portal for locally created
+              mini-games. A mobile application was developed for android to play
+              IMI games using the phone. I've got achance to contribute to the
+              project during my internship at Arimac.
+            </p>
+            <p style="font-weight: bold">
+              Technologies & tools: Flutter, Facebook Analytics
+            </p>
+            <a
+              href="https://play.google.com/store/apps/details?id=com.imigames.imi"
+              target="_blank"
+              class="read hvr-shutter-in-horizontal"
+            >
+              Open</a
+            >
+          </div>
 
-				</div>
-
-				<div class="clearfix"></div>
-			</div>
-			<div class="news-grid">
-
-				<div class="col-md-6 news-text two">
-					<h3> <a href="https://web.imigames.io/" target="_blank">IMI Games Website - Intern Project</a>
-					</h3>
-					<!-- <ul class="news">
+          <div class="clearfix"></div>
+        </div>
+        <div class="news-grid">
+          <div class="col-md-6 news-text two">
+            <h3>
+              <a href="https://web.imigames.io/" target="_blank"
+                >IMI Games Website - Intern Project</a
+              >
+            </h3>
+            <!-- <ul class="news">
 						<li><i class="glyphicon glyphicon-user"></i> <a href="#">Admin</a></li>
 						<li><i class="glyphicon glyphicon-comment"></i> <a href="#">2 Comments</a></li>
 						<li><i class="glyphicon glyphicon-heart"></i> <a href="#">50 Likes</a></li>
 						<li><i class="glyphicon glyphicon-tags"></i> <a href="#">3 Tags</a></li>
 					</ul> -->
-					<p>IMI Games website was developed to play IMI portal games using desktop browsers.Contributed to
-						the development of the website during my internship.
-					</p>
-					<p style="font-weight: bold;">
-						Technologies & tools: Nuxt.js, Tailwind CSS
+            <p>
+              IMI Games website was developed to play IMI portal games using
+              desktop browsers.Contributed to the development of the website
+              during my internship.
+            </p>
+            <p style="font-weight: bold">
+              Technologies & tools: Nuxt.js, Tailwind CSS
+            </p>
+            <a
+              href="https://web.imigames.io/"
+              target="_blank"
+              class="read hvr-shutter-in-horizontal"
+              >Open</a
+            >
+          </div>
+          <div class="col-md-6 news-img two">
+            <a href="https://web.imigames.io/" target="_blank">
+              <img src="images/imi-web.jpg" alt=" " class="img-responsive"
+            /></a>
+          </div>
+          <div class="clearfix"></div>
+        </div>
 
-					</p>
-					<a href="https://web.imigames.io/" target="_blank" class="read hvr-shutter-in-horizontal">Open</a>
-
-				</div>
-				<div class="col-md-6 news-img two">
-					<a href="https://web.imigames.io/" target="_blank"> <img src="images/imi-web.jpg" alt=" "
-							class="img-responsive"></a>
-
-				</div>
-				<div class="clearfix"></div>
-			</div>
-
-			<div class="news-grid w3l-agile">
-				<div class="col-md-6 news-img">
-					<a href="https://jewelpack.lk/" target="_blank"> <img src="images/jewelpack.jpg" alt=" "
-							class="img-responsive"></a>
-
-				</div>
-				<div class="col-md-6 news-text">
-					<h3> <a href="https://jewelpack.lk/" target="_blank"> Ecommerce website for Jewel Pack - 2nd
-							Year Software Project</a>
-					</h3>
-					<!-- <ul class="news">
+        <div class="news-grid w3l-agile">
+          <div class="col-md-6 news-img">
+            <a href="https://jewelpack.lk/" target="_blank">
+              <img src="images/jewelpack.jpg" alt=" " class="img-responsive"
+            /></a>
+          </div>
+          <div class="col-md-6 news-text">
+            <h3>
+              <a href="https://jewelpack.lk/" target="_blank">
+                Ecommerce website for Jewel Pack - 2nd Year Software Project</a
+              >
+            </h3>
+            <!-- <ul class="news">
 						<li><i class="glyphicon glyphicon-user"></i> <a href="#">Admin</a></li>
 						<li><i class="glyphicon glyphicon-comment"></i> <a href="#">2 Comments</a></li>
 						<li><i class="glyphicon glyphicon-heart"></i> <a href="#">50 Likes</a></li>
 						<li><i class="glyphicon glyphicon-tags"></i> <a href="#">3 Tags</a></li>
 					</ul> -->
-					<p>A platform was developed for the Jewel Pack company to grow its brand and reach morecustomers
-						online. Moreover, I have got experience hosting this website on Peek Hosting(shared hosting).
-					</p>
-					<p style="font-weight: bold;">
-						Technologies & tools: Vue.js, Laravel, MySQL, Peek Hosting
+            <p>
+              A platform was developed for the Jewel Pack company to grow its
+              brand and reach morecustomers online. Moreover, I have got
+              experience hosting this website on Peek Hosting(shared hosting).
+            </p>
+            <p style="font-weight: bold">
+              Technologies & tools: Vue.js, Laravel, MySQL, Peek Hosting
+            </p>
+            <a
+              href="https://jewelpack.lk/"
+              target="_blank"
+              class="read hvr-shutter-in-horizontal"
+              >Open</a
+            >
+          </div>
 
-					</p>
-					<a href="https://jewelpack.lk/" target="_blank" class="read hvr-shutter-in-horizontal">Open</a>
-
-				</div>
-
-				<div class="clearfix"></div>
-			</div>
-			<div class="news-grid">
-
-				<div class="col-md-6 news-text two">
-					<h3> <a>Ask Me - RealHack 2.0</a>
-					</h3>
-					<!-- <ul class="news">
+          <div class="clearfix"></div>
+        </div>
+        <div class="news-grid">
+          <div class="col-md-6 news-text two">
+            <h3><a>Ask Me - RealHack 2.0</a></h3>
+            <!-- <ul class="news">
 						<li><i class="glyphicon glyphicon-user"></i> <a href="#">Admin</a></li>
 						<li><i class="glyphicon glyphicon-comment"></i> <a href="#">2 Comments</a></li>
 						<li><i class="glyphicon glyphicon-heart"></i> <a href="#">50 Likes</a></li>
 						<li><i class="glyphicon glyphicon-tags"></i> <a href="#">3 Tags</a></li>
 					</ul> -->
-					<p>A question and answer website , where students can post questions to the community toget answers.
-						There the questions can also be ranked. It was developed for the RealHackhackathon within 24
-						hours. The content of the application was updated in real-time usingPusher.
-					</p>
-					<p style="font-weight: bold;">
-						Technologies & tools: Vue.js, Laravel, MySQL, Pusher
-
-					</p>
-
-
-				</div>
-				<div class="col-md-6 news-img two">
-					<a> <img src="images/realhack.jpeg" alt=" " class="img-responsive"></a>
-
-				</div>
-				<div class="clearfix"></div>
-			</div>
-			<div class="news-grid w3l-agile">
-				<div class="col-md-6 news-img">
-					<a> <img src="images/hardware.png" alt=" " class="img-responsive"></a>
-
-				</div>
-				<div class="col-md-6 news-text">
-					<h3> <a> Fingerprint Based Key Handling System
-							-
-							1st Year Hardware Project</a>
-					</h3>
-					<!-- <ul class="news">
+            <p>
+              A question and answer website , where students can post questions
+              to the community toget answers. There the questions can also be
+              ranked. It was developed for the RealHackhackathon within 24
+              hours. The content of the application was updated in real-time
+              usingPusher.
+            </p>
+            <p style="font-weight: bold">
+              Technologies & tools: Vue.js, Laravel, MySQL, Pusher
+            </p>
+          </div>
+          <div class="col-md-6 news-img two">
+            <a>
+              <img src="images/realhack.jpeg" alt=" " class="img-responsive"
+            /></a>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+        <div class="news-grid w3l-agile">
+          <div class="col-md-6 news-img">
+            <a>
+              <img src="images/hardware.png" alt=" " class="img-responsive"
+            /></a>
+          </div>
+          <div class="col-md-6 news-text">
+            <h3>
+              <a>
+                Fingerprint Based Key Handling System - 1st Year Hardware
+                Project</a
+              >
+            </h3>
+            <!-- <ul class="news">
 						<li><i class="glyphicon glyphicon-user"></i> <a href="#">Admin</a></li>
 						<li><i class="glyphicon glyphicon-comment"></i> <a href="#">2 Comments</a></li>
 						<li><i class="glyphicon glyphicon-heart"></i> <a href="#">50 Likes</a></li>
 						<li><i class="glyphicon glyphicon-tags"></i> <a href="#">3 Tags</a></li>
 					</ul> -->
-					<p>Automated system was made for issuing and returning keys for small to medium-scaleworkspaces.
-						This system will give a more security for the keys hence it is suitable for aplace like a
-						laboratory
-					</p>
-					<p style="font-weight: bold;">
-						Technologies & tools: AVR ATmega32, R305 fingerprint, MFRC522 RFID reader, AtmelStudio
+            <p>
+              Automated system was made for issuing and returning keys for small
+              to medium-scaleworkspaces. This system will give a more security
+              for the keys hence it is suitable for aplace like a laboratory
+            </p>
+            <p style="font-weight: bold">
+              Technologies & tools: AVR ATmega32, R305 fingerprint, MFRC522 RFID
+              reader, AtmelStudio
+            </p>
+          </div>
 
-					</p>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+    </div>
+    <!-- top-grids -->
+    <!-- /blog-pop-->
+    <div
+      class="modal ab fade"
+      id="myModal1"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myModalLabel"
+    >
+      <div class="modal-dialog about" role="document">
+        <div class="modal-content about">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="close ab"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body about">
+            <div class="about">
+              <div class="about-inner">
+                <img src="images/b3.jpg" alt="about" />
+                <h4 class="tittle">A Fews words about us</h4>
+                <p>
+                  Lorem ipsum dolor sit amet Integer gravida,Lorem ipsum dolor
+                  sit amet Integer gravida velit,Ming sits in the corner the
+                  whole day. She's into crochet. quis dolor tristiqumsan.Mirum
+                  est notare quam littera gothica, quam nunc putamus parum
+                  claram, anteposuerit litterarum formas humanitatis per seacula
+                  quarta decima et quinta a. velit quis dolor tristiqumsan.
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet. Integer decim gravida velit quis
+                  dolor tristiqumsan.anteposuerit litterarum formas humanitatis
+                  per seacula amet Integer gravida velit.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- //blog-pop-->
 
-
-				</div>
-
-				<div class="clearfix"></div>
-			</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-		</div>
-	</div>
-	<!-- top-grids -->
-	<!-- /blog-pop-->
-	<div class="modal ab fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-		<div class="modal-dialog about" role="document">
-			<div class="modal-content about">
-				<div class="modal-header">
-					<button type="button" class="close ab" data-dismiss="modal" aria-label="Close"><span
-							aria-hidden="true">&times;</span></button>
-				</div>
-				<div class="modal-body about">
-					<div class="about">
-
-						<div class="about-inner">
-
-							<img src="images/b3.jpg" alt="about" />
-							<h4 class="tittle">A Fews words about us</h4>
-							<p>Lorem ipsum dolor sit amet Integer gravida,Lorem ipsum dolor sit amet Integer gravida
-								velit,Ming sits in the corner the whole day. She's into crochet. quis dolor
-								tristiqumsan.Mirum est notare quam littera gothica, quam nunc putamus parum claram,
-								anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta
-								a.
-								velit quis dolor tristiqumsan.</p>
-							<p>Lorem ipsum dolor sit amet. Integer decim gravida velit quis dolor
-								tristiqumsan.anteposuerit
-								litterarum formas humanitatis per seacula amet Integer gravida velit. </p>
-						</div>
-
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- //blog-pop-->
-
-	<!-- /header -->
-	<div class="footer" id="contact">
-		<div class="container">
-			<div class="service-head one text-center">
-				<h4>CONTACT ME</h4>
-				<h3>GET <span>IN TOUCH</span></h3>
-				<span class="border two"></span>
-			</div>
-			<div class="mail_us">
-				<div class="col-md-6 mail_left">
-					<div class="contact-grid1-left">
-						<div class="contact-grid1-left1" style="padding: 48px 0px;">
-							<span class="glyphicon glyphicon-globe" aria-hidden="true"></span>
-							<h4>Socials</h4>
-							<ul>
-								<li>LinkedIn: <a
-										href="https://www.linkedin.com/in/thiranjaya-munasinghe/">@thiranjaya-munasinghe</a>
-								</li>
-								<li>GitHub: <a href="https://github.com/thiranjayamunasinghe">@thiranjayamunasinghe</a>
-								</li>
-								<li>StackOverflow: <a
-										href="https://stackoverflow.com/users/9971412/thiranjaya-munasinghe">@thiranjaya-munasinghe</a>
-								</li>
-							</ul>
-						</div>
-					</div>
-					<div class="contact-grid1-left">
-						<div class="contact-grid1-left1">
-							<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
-							<h4>By Email</h4>
-							<ul>
-								<li>Mail: <a
-										href="mailto:thiranjayamunasinghe@gmail.com">thiranjayamunasinghe@gmail.com</a>
-								</li>
-								<li></li>
-							</ul>
-						</div>
-					</div>
-					<div class="contact-grid1-left">
-						<div class="contact-grid1-left1">
-							<span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
-							<h4>By Phone</h4>
-							<ul>
-								<li>Mobile/WhatsApp: +94 715418325</li>
-							</ul>
-						</div>
-					</div>
-					<!-- <div class="contact-grid1-left">
+    <!-- /header -->
+    <div class="footer" id="contact">
+      <div class="container">
+        <div class="service-head one text-center">
+          <h4>CONTACT ME</h4>
+          <h3>GET <span>IN TOUCH</span></h3>
+          <span class="border two"></span>
+        </div>
+        <div class="mail_us">
+          <div class="col-md-6 mail_left">
+            <div class="contact-grid1-left">
+              <div class="contact-grid1-left1" style="padding: 48px 0px">
+                <span
+                  class="glyphicon glyphicon-globe"
+                  aria-hidden="true"
+                ></span>
+                <h4>Socials</h4>
+                <ul>
+                  <li>
+                    LinkedIn:
+                    <a href="https://www.linkedin.com/in/thiranjaya-munasinghe/"
+                      >@thiranjaya-munasinghe</a
+                    >
+                  </li>
+                  <li>
+                    GitHub:
+                    <a href="https://github.com/thiranjayamunasinghe"
+                      >@thiranjayamunasinghe</a
+                    >
+                  </li>
+                  <li>
+                    StackOverflow:
+                    <a
+                      href="https://stackoverflow.com/users/9971412/thiranjaya-munasinghe"
+                      >@thiranjaya-munasinghe</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="contact-grid1-left">
+              <div class="contact-grid1-left1">
+                <span
+                  class="glyphicon glyphicon-envelope"
+                  aria-hidden="true"
+                ></span>
+                <h4>By Email</h4>
+                <ul>
+                  <li>
+                    Mail:
+                    <a href="mailto:thiranjayamunasinghe@gmail.com"
+                      >thiranjayamunasinghe@gmail.com</a
+                    >
+                  </li>
+                  <li></li>
+                </ul>
+              </div>
+            </div>
+            <div class="contact-grid1-left">
+              <div class="contact-grid1-left1">
+                <span
+                  class="glyphicon glyphicon-earphone"
+                  aria-hidden="true"
+                ></span>
+                <h4>By Phone</h4>
+                <ul>
+                  <li>Mobile/WhatsApp: +94 715418325</li>
+                </ul>
+              </div>
+            </div>
+            <!-- <div class="contact-grid1-left">
 						<div class="contact-grid1-left1">
 							<span class="glyphicon glyphicon-home" aria-hidden="true"></span>
 							<h4>Looking For Address</h4>
@@ -854,253 +1003,382 @@
 							</ul>
 						</div>
 					</div> -->
-					<div class="clearfix"> </div>
-				</div>
-				<div class="col-md-6 mail_right">
-					<form action="https://formspree.io/f/xleajrpq" method="post">
-						<input type="text" name="Name" value="Name" onfocus="this.value = '';"
-							onblur="if (this.value == '') {this.value = 'Name';}" required="">
-						<input type="email" name="Email" value="Email" onfocus="this.value = '';"
-							onblur="if (this.value == '') {this.value = 'Email';}" required="">
-						<input type="text" name="Mobile number" value="Mobile number" onfocus="this.value = '';"
-							onblur="if (this.value == '') {this.value = 'Mobile number';}" required="">
-						<textarea name="Message..." onfocus="this.value = '';" required=""
-							onblur="if (this.value == '') {this.value = 'Message...';}">Message...</textarea>
-						<input type="submit" value="Send">
-
-					</form>
-				</div>
-				<div class="clearfix"></div>
-			</div>
-			<div class="copy_right text-center">
-
-				<!-- <ul class="social-icons two">
+            <div class="clearfix"></div>
+          </div>
+          <div class="col-md-6 mail_right">
+            <form action="https://formspree.io/f/xleajrpq" method="post">
+              <input
+                type="text"
+                name="Name"
+                value="Name"
+                onfocus="this.value = '';"
+                onblur="if (this.value == '') {this.value = 'Name';}"
+                required=""
+              />
+              <input
+                type="email"
+                name="Email"
+                value="Email"
+                onfocus="this.value = '';"
+                onblur="if (this.value == '') {this.value = 'Email';}"
+                required=""
+              />
+              <input
+                type="text"
+                name="Mobile number"
+                value="Mobile number"
+                onfocus="this.value = '';"
+                onblur="if (this.value == '') {this.value = 'Mobile number';}"
+                required=""
+              />
+              <textarea
+                name="Message..."
+                onfocus="this.value = '';"
+                required=""
+                onblur="if (this.value == '') {this.value = 'Message...';}"
+              >
+Message...</textarea
+              >
+              <input type="submit" value="Send" />
+            </form>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+        <div class="copy_right text-center">
+          <!-- <ul class="social-icons two">
 					<li><a href="#"> </a></li>
 					<li><a href="#" class="fb"> </a></li>
 					<li><a href="#" class="in"> </a></li>
 					<li><a href="#" class="dott"> </a></li>
 				</ul> -->
-			</div>
-		</div>
-	</div>
-	<!-- //footer -->
-	<!-- /container -->
-	<div class="portfolio-modal modal fade slideanim" id="portfolioModal1" tabindex="-1" role="dialog"
-		aria-hidden="true">
-		<div class="modal-content port-modal">
-			<div class="close-modal" data-dismiss="modal">
-				<div class="lr">
-					<div class="rl"></div>
-				</div>
-			</div>
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-8 col-lg-offset-2 text-center">
-						<div class="modal-body">
-							<h3>Image-Title</h3>
-							<img src="images/pic4.jpg" class="img-responsive img-centered" alt="">
-							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-								Ipsum
-								has been the industry's standard dummy text ever since the 1500s, when an unknown
-								printer took a galley of type and scrambled it to make a type specimen book.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="portfolio-modal modal fade slideanim" id="portfolioModal2" tabindex="-1" role="dialog"
-		aria-hidden="true">
-		<div class="modal-content port-modal">
-			<div class="close-modal" data-dismiss="modal">
-				<div class="lr">
-					<div class="rl"></div>
-				</div>
-			</div>
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-8 col-lg-offset-2 text-center">
-						<div class="modal-body">
-							<h3>Image-Title</h3>
-							<img src="images/pic9.jpg" class="img-responsive img-centered" alt="">
-							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-								Ipsum
-								has been the industry's standard dummy text ever since the 1500s, when an unknown
-								printer took a galley of type and scrambled it to make a type specimen book.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="portfolio-modal modal fade slideanim" id="portfolioModal3" tabindex="-1" role="dialog"
-		aria-hidden="true">
-		<div class="modal-content port-modal">
-			<div class="close-modal" data-dismiss="modal">
-				<div class="lr">
-					<div class="rl"></div>
-				</div>
-			</div>
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-8 col-lg-offset-2 text-center">
-						<div class="modal-body">
-							<h3>Image-Title</h3>
-							<img src="images/pic5.jpg" class="img-responsive img-centered" alt="">
-							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-								Ipsum
-								has been the industry's standard dummy text ever since the 1500s, when an unknown
-								printer took a galley of type and scrambled it to make a type specimen book.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="portfolio-modal modal fade slideanim" id="portfolioModal4" tabindex="-1" role="dialog"
-		aria-hidden="true">
-		<div class="modal-content port-modal">
-			<div class="close-modal" data-dismiss="modal">
-				<div class="lr">
-					<div class="rl"></div>
-				</div>
-			</div>
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-8 col-lg-offset-2 text-center">
-						<div class="modal-body">
-							<h3>Image-Title</h3>
-							<img src="images/pic6.jpg" class="img-responsive img-centered" alt="">
-							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-								Ipsum
-								has been the industry's standard dummy text ever since the 1500s, when an unknown
-								printer took a galley of type and scrambled it to make a type specimen book.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="portfolio-modal modal fade slideanim" id="portfolioModal5" tabindex="-1" role="dialog"
-		aria-hidden="true">
-		<div class="modal-content port-modal">
-			<div class="close-modal" data-dismiss="modal">
-				<div class="lr">
-					<div class="rl"></div>
-				</div>
-			</div>
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-8 col-lg-offset-2 text-center">
-						<div class="modal-body">
-							<h3>Image-Title</h3>
-							<img src="images/pic10.jpg" class="img-responsive img-centered" alt="">
-							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-								Ipsum
-								has been the industry's standard dummy text ever since the 1500s, when an unknown
-								printer took a galley of type and scrambled it to make a type specimen book.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="portfolio-modal modal fade slideanim" id="portfolioModal6" tabindex="-1" role="dialog"
-		aria-hidden="true">
-		<div class="modal-content port-modal">
-			<div class="close-modal" data-dismiss="modal">
-				<div class="lr">
-					<div class="rl"></div>
-				</div>
-			</div>
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-8 col-lg-offset-2 text-center">
-						<div class="modal-body">
-							<h3>Image-Title</h3>
-							<img src="images/pic11.jpg" class="img-responsive img-centered" alt="">
-							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-								Ipsum
-								has been the industry's standard dummy text ever since the 1500s, when an unknown
-								printer took a galley of type and scrambled it to make a type specimen book.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="portfolio-modal modal fade slideanim" id="portfolioModal7" tabindex="-1" role="dialog"
-		aria-hidden="true">
-		<div class="modal-content port-modal">
-			<div class="close-modal" data-dismiss="modal">
-				<div class="lr">
-					<div class="rl"></div>
-				</div>
-			</div>
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-8 col-lg-offset-2 text-center">
-						<div class="modal-body">
-							<h3>Image-Title</h3>
-							<img src="images/pic13.jpg" class="img-responsive img-centered" alt="">
-							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-								Ipsum
-								has been the industry's standard dummy text ever since the 1500s, when an unknown
-								printer took a galley of type and scrambled it to make a type specimen book.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="portfolio-modal modal fade slideanim" id="portfolioModal8" tabindex="-1" role="dialog"
-		aria-hidden="true">
-		<div class="modal-content port-modal">
-			<div class="close-modal" data-dismiss="modal">
-				<div class="lr">
-					<div class="rl"></div>
-				</div>
-			</div>
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-8 col-lg-offset-2 text-center">
-						<div class="modal-body">
-							<h3>Image-Title</h3>
-							<img src="images/pic14.jpg" class="img-responsive img-centered" alt="">
-							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-								Ipsum
-								has been the industry's standard dummy text ever since the 1500s, when an unknown
-								printer took a galley of type and scrambled it to make a type specimen book.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="portfolio-modal modal fade slideanim" id="portfolioModal9" tabindex="-1" role="dialog"
-		aria-hidden="true">
-		<div class="modal-content port-modal">
-			<div class="close-modal" data-dismiss="modal">
-				<div class="lr">
-					<div class="rl"></div>
-				</div>
-			</div>
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-8 col-lg-offset-2 text-center">
-						<div class="modal-body">
-							<img src="images/pic1.jpg" class="img-responsive img-centered" alt="">
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<a href="#home" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
-	<!--start-smooth-scrolling-->
-	<script type="text/javascript">
-		$(document).ready(function () {
-			/*
+        </div>
+      </div>
+    </div>
+    <!-- //footer -->
+    <!-- /container -->
+    <div
+      class="portfolio-modal modal fade slideanim"
+      id="portfolioModal1"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+              <div class="modal-body">
+                <h3>Image-Title</h3>
+                <img
+                  src="images/pic4.jpg"
+                  class="img-responsive img-centered"
+                  alt=""
+                />
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s, when an unknown
+                  printer took a galley of type and scrambled it to make a type
+                  specimen book.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="portfolio-modal modal fade slideanim"
+      id="portfolioModal2"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+              <div class="modal-body">
+                <h3>Image-Title</h3>
+                <img
+                  src="images/pic9.jpg"
+                  class="img-responsive img-centered"
+                  alt=""
+                />
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s, when an unknown
+                  printer took a galley of type and scrambled it to make a type
+                  specimen book.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="portfolio-modal modal fade slideanim"
+      id="portfolioModal3"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+              <div class="modal-body">
+                <h3>Image-Title</h3>
+                <img
+                  src="images/pic5.jpg"
+                  class="img-responsive img-centered"
+                  alt=""
+                />
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s, when an unknown
+                  printer took a galley of type and scrambled it to make a type
+                  specimen book.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="portfolio-modal modal fade slideanim"
+      id="portfolioModal4"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+              <div class="modal-body">
+                <h3>Image-Title</h3>
+                <img
+                  src="images/pic6.jpg"
+                  class="img-responsive img-centered"
+                  alt=""
+                />
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s, when an unknown
+                  printer took a galley of type and scrambled it to make a type
+                  specimen book.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="portfolio-modal modal fade slideanim"
+      id="portfolioModal5"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+              <div class="modal-body">
+                <h3>Image-Title</h3>
+                <img
+                  src="images/pic10.jpg"
+                  class="img-responsive img-centered"
+                  alt=""
+                />
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s, when an unknown
+                  printer took a galley of type and scrambled it to make a type
+                  specimen book.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="portfolio-modal modal fade slideanim"
+      id="portfolioModal6"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+              <div class="modal-body">
+                <h3>Image-Title</h3>
+                <img
+                  src="images/pic11.jpg"
+                  class="img-responsive img-centered"
+                  alt=""
+                />
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s, when an unknown
+                  printer took a galley of type and scrambled it to make a type
+                  specimen book.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="portfolio-modal modal fade slideanim"
+      id="portfolioModal7"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+              <div class="modal-body">
+                <h3>Image-Title</h3>
+                <img
+                  src="images/pic13.jpg"
+                  class="img-responsive img-centered"
+                  alt=""
+                />
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s, when an unknown
+                  printer took a galley of type and scrambled it to make a type
+                  specimen book.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="portfolio-modal modal fade slideanim"
+      id="portfolioModal8"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+              <div class="modal-body">
+                <h3>Image-Title</h3>
+                <img
+                  src="images/pic14.jpg"
+                  class="img-responsive img-centered"
+                  alt=""
+                />
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s, when an unknown
+                  printer took a galley of type and scrambled it to make a type
+                  specimen book.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="portfolio-modal modal fade slideanim"
+      id="portfolioModal9"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-content port-modal">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+              <div class="modal-body">
+                <img
+                  src="images/pic1.jpg"
+                  class="img-responsive img-centered"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a href="#home" id="toTop" style="display: block">
+      <span id="toTopHover" style="opacity: 1"> </span
+    ></a>
+    <!--start-smooth-scrolling-->
+    <script type="text/javascript">
+      $(document).ready(function () {
+        /*
 			var defaults = {
 					containerID: 'toTop', // fading element id
 				containerHoverID: 'toTopHover', // fading element hover id
@@ -1109,15 +1387,11 @@
 				};
 			*/
 
-			$().UItoTop({ easingType: 'easeOutQuart' });
-
-		});
-	</script>
-	<!--end-smooth-scrolling-->
-	<!-- //for bootstrap working -->
-	<script src="js/bootstrap.js"></script>
-
-
-</body>
-
+        $().UItoTop({ easingType: "easeOutQuart" });
+      });
+    </script>
+    <!--end-smooth-scrolling-->
+    <!-- //for bootstrap working -->
+    <script src="js/bootstrap.js"></script>
+  </body>
 </html>
