@@ -1,15 +1,13 @@
 {
-  "name": "developer-portfolio",
-  "description": "Portfolio of Abu Said",
-  "version": "0.1.0",
+  "name": "thiranjaya-munasinghe-portfolio",
+  "description": "Portfolio of Thiranjaya Munasinghe",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "export": "next export",
-    "deploy": "npm run build && gh-pages -d out"
+    "lint": "next lint"
   },
   "dependencies": {
     "@emailjs/browser": "^4.3.1",
