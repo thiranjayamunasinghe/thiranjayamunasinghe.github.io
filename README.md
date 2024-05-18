@@ -103,7 +103,7 @@ Eg:
 export const personalData = {
   name: "Thiranjaya Munasinghe",
   profile: "/profile.png",
-  designation: "Full-Stack Software Developer",
+  designation: "Senior Software Engineer",
   description: "My name is THIRANJAYA....",
   email: "",
   phone: "",
