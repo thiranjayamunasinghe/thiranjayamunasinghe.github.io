@@ -1,7 +1,7 @@
 export const personalData = {
   name: "THIRANJAYA MUNASINGHE",
   profile: "/profile.png",
-  designation: "Senior Software Developer",
+  designation: "Senior Software Engineer",
   description:
     "I am a Senior Software Engineer with extensive experience in developing scalable and efficient technological solutions. Deeply passionate about technology with a robust skill set in leveraging advanced tools and frameworks to solve complex problems. Committed to continuous learning and applying cutting-edge technologies to enhance product performance. Seeking a challenging senior software engineering role where I can further improve my skills and contribute to innovative projects.",
   email: "thiranjayamunasinghe@gmail.com",
