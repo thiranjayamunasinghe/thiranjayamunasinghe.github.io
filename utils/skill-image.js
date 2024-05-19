@@ -45,7 +45,7 @@ import mongoDB from "/public/svg/skills/mongoDB.svg";
 import mysql from "/public/svg/skills/mysql.svg";
 import nextJS from "/public/svg/skills/nextJS.svg";
 import nginx from "/public/svg/skills/nginx.svg";
-import node from "/public/svg/skills/node.svg";
+import node from "/public/svg/skills/node.png";
 import numpy from "/public/svg/skills/numpy.svg";
 import nuxtJS from "/public/svg/skills/nuxtJS.svg";
 import opencv from "/public/svg/skills/opencv.svg";
